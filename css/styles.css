@@ -5,12 +5,21 @@
 }
 
 header{
-    height: 55vh;
-    /* width: 100%; */
-    background-image: url('/media/wave.svg');
-    background-repeat: no-repeat;
+    margin-bottom: 150px;
+    height: 30vh;
+    background: linear-gradient(#00d3fe, #077b8c );
+    position: relative;
+}
+header::after{
+    content: '';
+    height: 200px;
+    width: 100%;
+    background: url('/media/wave-haikei.svg') top center;
     background-size: contain;
-    background-position: top;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 100%;
+    left: 0;
 }
 
 h1{
@@ -20,14 +29,16 @@ h1{
     font-size: 45px;
     font-weight: lighter;
     position: relative;
-    top: 20%;
+    top: 50%;
 }
 
 main{
+    height: auto;
     padding: 0 13% 0 13%;
 }
 
 footer{
+    margin-top: 50px;
     height: 12vh;
     width: 100%;
     background-color: #011d24;
