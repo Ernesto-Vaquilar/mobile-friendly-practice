@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 55vh;
+    /* width: 100%; */
+    background-image: url('/media/wave.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 45px;
+    font-weight: lighter;
+    position: relative;
+    top: 20%;
+}
+
+main{
+    padding: 0 13% 0 13%;
+}
