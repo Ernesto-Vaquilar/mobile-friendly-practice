@@ -37,6 +37,13 @@ main{
     padding: 0 13% 0 13%;
 }
 
+h2{
+    color: #0c6d78;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 footer{
     margin-top: 50px;
     height: 12vh;
