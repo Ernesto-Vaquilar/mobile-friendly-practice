@@ -6,8 +6,11 @@
 
 /* Header START */
 header{
-    background-color: #01d3fe;
     background-image: linear-gradient(#00000000, #000000bf);
+}
+
+.theme-color{
+    background-color: #01d3fe; /*Overridden by media queries */
 }
 
 .theme-title-container{
@@ -21,14 +24,15 @@ h1{
     position: relative;
     top: 50%;
 }
+
 svg{
-    display: block;
-    z-index: 1; /* svg must always be covering header background */
+    display: block; /* Removes small gap between image and div border */
+    z-index: 1; /* Just in case: svg covers up header background */
 }
 /* Header END */
 
+/* Main START */
 main{
-    height: auto;
     padding: 0 13vw 0 13vw;
 }
 
@@ -47,12 +51,14 @@ section p{
 .align-right{
     text-align: right;
 }
+/* Main END */
 
+/* Footer START */
 footer{
     margin-top: 50px;
     height: 12vh;
     width: 100%;
-    background-color: #011d24;
+    background-image: linear-gradient(#000000cc, #000000cc);
 }
 
 footer > p{
@@ -62,3 +68,4 @@ footer > p{
     position: relative;
     top: 50%;
 }
+/* Footer END */
