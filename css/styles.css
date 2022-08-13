@@ -69,3 +69,30 @@ footer > p{
     top: 50%;
 }
 /* Footer END */
+
+@media (max-width: 1024px){
+    .theme-color{
+        background-color: #01feb2;
+    }
+    h2{
+        color: #007451;
+    }
+}
+
+@media (max-width: 768px){
+    .theme-color{
+        background-color: #b31b16;
+    }
+    h2{
+        color: #380806;
+    }
+}
+
+@media (max-width: 480px){
+    .theme-color{
+        background-color: #651cec;
+    }
+    h2{
+        color: #220657;
+    }
+}
